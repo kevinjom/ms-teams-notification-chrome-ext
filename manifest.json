@@ -1,0 +1,11 @@
+  {
+    "name": "MS Teams notifications",
+    "version": "1.0",
+    "description": "A crappy notification helper with crappy MS teams",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": ["tabs", "notifications"],
+    "manifest_version": 2
+  }
